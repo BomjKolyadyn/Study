@@ -82,7 +82,7 @@ namespace Pr2ProgLang
             else
             {
                 s1 = s2; s2 = 0.0;
-                goto m1;
+                goto m1;//
             }
         }
 
