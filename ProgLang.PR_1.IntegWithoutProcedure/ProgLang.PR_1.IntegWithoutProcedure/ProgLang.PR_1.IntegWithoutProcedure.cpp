@@ -24,7 +24,7 @@ float integral(double a, double b, double n)
 void main()
 {
 	double y;
-	y = integral(1, 3, 1024);
+	y = integral(1, 3, 512);
 	cout << y;
 	system("PAUSE");
 }
