@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Edit4 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnIter = new System.Windows.Forms.Button();
             this.EditIter = new System.Windows.Forms.TextBox();
@@ -50,7 +51,6 @@
             this.EditS = new System.Windows.Forms.TextBox();
             this.btnS2 = new System.Windows.Forms.Button();
             this.EditS2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -129,6 +129,7 @@
             this.Memo1.Size = new System.Drawing.Size(158, 28);
             this.Memo1.TabIndex = 4;
             this.Memo1.Text = "Введите начальное значение отрезка интегрирования (а):";
+            this.Memo1.Click += new System.EventHandler(this.Memo1_Click);
             // 
             // Memo2
             // 
@@ -180,6 +181,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(263, 264);
             this.panel1.TabIndex = 11;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Pr2ProgLang.Properties.Resources.Screenshot_5;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(263, 264);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
@@ -241,16 +252,6 @@
             this.EditS2.Name = "EditS2";
             this.EditS2.Size = new System.Drawing.Size(74, 20);
             this.EditS2.TabIndex = 18;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Pr2ProgLang.Properties.Resources.Screenshot_5;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(263, 264);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // fmMain
             // 

@@ -111,5 +111,10 @@ namespace Pr2ProgLang
         {
             EditS2.Text = SumS2.ToString("F3");
         }
+
+        private void Memo1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
